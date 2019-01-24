@@ -1,0 +1,35 @@
+{
+    "name": "doctrine-extensions/common",
+    "description": "Common code shared among packages from DoctrineExtensions",
+    "type": "library",
+    "require": {
+        "doctrine/common": "^2.10",
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "doctrine/mongodb": "^1.6",
+        "doctrine/mongodb-odm": "^1.2",
+        "doctrine/orm": "^2.6",
+        "symfony/yaml": "^4.2",
+        "phpunit/phpunit": "^7.5"
+    },
+    "suggest": {
+        "ext-mongo": "to use the extensions with the MongoDB ODM",
+        "ext-pdo": "to use the extensions with the ORM",
+        "doctrine/mongodb-odm": "to use the extensions with the MongoDB ODM",
+        "doctrine/orm": "to use the extensions with the ORM"
+    },
+    "support": {
+        "source": "https://github.com/DoctrineExtensions/common.git"
+    },
+    "autoload": {
+        "psr-4": { "DoctrineExtensions\\Common\\": "src/DoctrineExtensions/Common" }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Chodusov",
+            "email": "daniel@chodusov.com"
+        }
+    ]
+}
