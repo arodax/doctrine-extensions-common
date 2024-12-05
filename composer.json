@@ -3,14 +3,14 @@
     "description": "Common code shared among packages from DoctrineExtensions",
     "type": "library",
     "require": {
-        "doctrine/common": "^2.10",
-        "php": "^7.2"
+        "doctrine/common": "^1.0. || ^2.10 || ^3.0",
+        "php": "^7.2 || ^8.3"
     },
     "require-dev": {
         "doctrine/mongodb": "^1.6",
         "doctrine/mongodb-odm": "^1.2",
         "doctrine/orm": "^2.6",
-        "symfony/yaml": "^4.2",
+        "symfony/yaml": "^4.2 || ^5.4",
         "phpunit/phpunit": "^7.5"
     },
     "suggest": {
